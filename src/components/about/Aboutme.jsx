@@ -16,10 +16,9 @@ const Aboutme = () => {
         igjennom grunnleggende CSS, HTML og Javascript der jeg fikk A på begge
         eksamener. Vi har også hatt design/brukergrensesnitt og UX/UI der vi har
         laget prototyper i adobe XD. Jeg fikk også A på eksamen i Design. I
-        sommer har jeg laget ett prosjekt i React med Strapi som backend sammen
-        med en klassekamerat for ett bilutleie firma i Oslo. Jeg syntes koding
-        er veldig spennende og jeg er interessert i å lære meg backend språk
-        også.
+        sommer har jeg laget ett prosjekt i React, sammen med en klassekamerat,
+        for ett bilutleie firma i Oslo. Jeg jobber også deltid som mentor og
+        lærer assistent på Gokstad Akademiet.
       </p>
     </div>
   );
