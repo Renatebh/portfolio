@@ -3,7 +3,7 @@ import style from "./Home.module.css";
 import Image from "../components/image/Image";
 import Navbar from "../components/nav/Navbar";
 import Footer from "../components/footer/Footer";
-import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import Some from "../components/some/Some";
 
 const Home = () => {
   return (
@@ -21,15 +21,7 @@ const Home = () => {
               Frontend-devloper student at Gokstad Akademiet
             </p>
             <div className={style["some-container"]}>
-              <span className={style["some-icons"]}>
-                <FaFacebookF size={30} />
-              </span>
-              <span className={style["some-icons"]}>
-                <FaInstagram size={30} />
-              </span>
-              <span className={style["some-icons"]}>
-                <FaLinkedinIn size={30} />
-              </span>
+              <Some />
             </div>
           </div>
           <div className={style["image-container"]}>

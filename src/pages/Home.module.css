@@ -32,11 +32,9 @@
 
 .some-container {
   margin-top: 0.8rem;
-}
+  display: flex;
 
-.some-icons {
-  color: var(--yellow);
-  margin-right: 0.4rem;
+  align-items: flex-end;
 }
 
 .footer {

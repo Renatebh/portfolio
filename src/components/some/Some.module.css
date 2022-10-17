@@ -1,0 +1,17 @@
+.some-icons a {
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
+  margin: 0.3rem 0.6rem;
+  padding: 0.4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.some-icons a:hover {
+  transition: all 0.7s ease-in-out;
+  transform: scale(1.1);
+  box-shadow: var(--box-shadow-light);
+}
