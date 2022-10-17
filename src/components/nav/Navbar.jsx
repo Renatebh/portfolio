@@ -8,17 +8,18 @@ const Navbar = () => {
     <>
       <div className={style["header-container"]}>
         <Logo />
-        <ul className={style["links-container"]}>
-          <li className={style["header-links"]}>
+        <div className={style["links-container"]}>
+          <button className={style["btn-hover color-1"]}>
             <Link to="./about">About</Link>
-          </li>
-          <li className={style["header-links"]}>
-            <Link to="./projects">Projects</Link>
-          </li>
-          <li className={style["header-links"]}>
-            <Link to="./cv">CV</Link>
-          </li>
-        </ul>
+          </button>
+          <Link to="./projects" className={style["btn-hover color-1"]}>
+            Projects
+          </Link>
+
+          <Link to="./cv" className={style["btn-hover color-1"]}>
+            CV
+          </Link>
+        </div>
       </div>
     </>
   );
