@@ -1,0 +1,35 @@
+.header-container {
+  background-color: var(--gradientColor);
+  width: 100%;
+  max-width: 144rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  height: 5rem;
+  width: 60%;
+  list-style: none;
+}
+
+.header-links {
+  cursor: pointer;
+  color: var(--black);
+  border: 1px solid var(--black);
+  padding: 0.5rem;
+  border-radius: 2px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-links a {
+  color: var(--black);
+  text-decoration: none;
+}

@@ -1,0 +1,138 @@
+@import "../variables/variables.module.css";
+
+.container {
+  width: 100%;
+  height: 200vh;
+  display: grid;
+  gap: 2rem;
+  margin: 3rem 0 8rem 0;
+  grid-template-columns: 15em 300px repeat(2, 1fr) 15em;
+  grid-template-rows: 20% 42% 25% 12%;
+  grid-template-areas:
+    ". personalia aboutme aboutme ."
+    ". personalia work work ."
+    ". personalia education education ."
+    ". personalia courses courses .";
+}
+
+.personalia {
+  grid-area: personalia;
+  background-image: var(--gradientColor);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+
+.aboutme {
+  grid-area: aboutme;
+  background-image: var(--gradientColorReverse);
+}
+
+.aboutme,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work {
+  grid-area: work;
+  height: auto;
+}
+
+.education {
+  grid-area: education;
+  height: auto;
+}
+
+.courses {
+  grid-area: courses;
+  height: auto;
+}
+
+.aboutme,
+.work,
+.education,
+.courses,
+.footer {
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.footer {
+  grid-area: footer;
+  background-image: var(--gradientColor);
+}
+
+/*MEDIA QUERRIES */
+
+/* 320px — 480px: Mobile devices.*/
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+  .container {
+    margin: 0;
+
+    grid-template-columns: 400px;
+    grid-template-rows: 80% 35% 60% 30% 20%;
+    grid-template-areas:
+      "personalia"
+      "aboutme"
+      "work"
+      "education"
+      "courses"
+      "footer";
+  }
+}
+
+/* 481px — 768px: iPads, Tablets. */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .container {
+    margin: 0;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 110% 25% 65% 35% 20%;
+    grid-template-areas:
+      "personalia"
+      "aboutme"
+      "work"
+      "education"
+      "courses"
+      "footer";
+  }
+}
+
+/* 769px — 1024px: Small screens, laptops. */
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .container {
+    margin: 0;
+    grid-template-columns: 0.2em 900px 0.2em;
+    grid-template-rows: 80% 20% 50% 30% 20%;
+    grid-template-areas:
+      ". personalia ."
+      ". aboutme ."
+      ". work ."
+      ". education ."
+      ". courses ."
+      ". footer .";
+  }
+  .personalia {
+    justify-content: center;
+  }
+}
+
+/* 1025px — 1200px: Desktops, large screens. */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+  .container {
+    grid-template-columns: 1em 300px repeat(2, 1fr) 1em;
+    grid-template-rows: 30% 70% 35% 20%;
+  }
+}
+
+/* 1201px and more — Extra large screens, TV's */
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1800px) {
+  .container {
+    grid-template-columns: 10em 300px repeat(2, 1fr) 10em;
+    /* grid-template-rows: 22% 50% 30% 15%; */
+  }
+} ;

@@ -1,0 +1,15 @@
+@import "../../variables/variables.module.css";
+
+.heading-one {
+  font-size: var(--step-1);
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.heading-two {
+  font-size: var(--step--1);
+  line-height: 1;
+  margin: 3rem 0 0 0;
+  text-align: center;
+}

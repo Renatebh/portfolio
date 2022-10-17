@@ -1,0 +1,68 @@
+@import "../../variables/variables.module.css";
+
+.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  margin: 2rem;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-personal {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.some-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.some-logoes {
+  color: var(--black);
+  border-radius: 10px;
+}
+
+.some-logoes:hover {
+  transition: all 0.7s ease-in-out;
+  transform: scale(1.1);
+  box-shadow: var(--box-shadow-light);
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .image-container {
+    width: 900px;
+  }
+  .top-personal {
+    width: 900px;
+  }
+  .personal {
+    flex-direction: row;
+    width: 900px;
+  }
+  .skills {
+    width: 900px;
+  }
+  .interests {
+    width: 900px;
+  }
+  .language {
+    width: 900px;
+  }
+  .some-container {
+    width: 900px;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .links-container {
+    width: 900px;
+  }
+}
