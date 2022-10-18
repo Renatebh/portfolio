@@ -2,12 +2,12 @@
 
 .container {
   width: 100%;
-  height: 200vh;
+  /* height: 200vh; */
   display: grid;
   gap: 2rem;
   margin: 3rem 0 8rem 0;
   grid-template-columns: 15em 300px repeat(2, 1fr) 15em;
-  grid-template-rows: 20% 42% 25% 12%;
+  grid-template-rows: 20% 40% 25% 15%;
   grid-template-areas:
     ". personalia aboutme aboutme ."
     ". personalia work work ."
