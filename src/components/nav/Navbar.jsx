@@ -9,14 +9,15 @@ const Navbar = () => {
       <div className={style["header-container"]}>
         <Logo />
         <div className={style["links-container"]}>
-          <button className={style["btn-hover color-1"]}>
-            <Link to="./about">About</Link>
-          </button>
-          <Link to="./projects" className={style["btn-hover color-1"]}>
+          <Link to="./about" className={style["link-nav"]}>
+            About
+          </Link>
+
+          <Link to="./projects" className={style["link-nav"]}>
             Projects
           </Link>
 
-          <Link to="./cv" className={style["btn-hover color-1"]}>
+          <Link to="./cv" className={style["link-nav"]}>
             CV
           </Link>
         </div>

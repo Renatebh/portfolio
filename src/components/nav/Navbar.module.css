@@ -16,3 +16,25 @@
   height: 5rem;
   width: 60%;
 }
+
+.link-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 10px;
+  text-transform: lowercase;
+  font-weight: 400;
+}
+
+.link-nav:hover {
+  box-shadow: var(--box-shadow-light);
+  transition: all 0.7s ease-in-out;
+  transform: scale(1.1);
+  background-color: var(--blue);
+  color: var(--yellow);
+}
