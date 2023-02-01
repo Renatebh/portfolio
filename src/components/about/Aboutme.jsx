@@ -6,19 +6,20 @@ const Aboutme = () => {
     <div>
       <HeadingOne text="Om meg" />
       <p>
-        Jeg er 39 år og bor i Tjølling med mann og to barn på 9 og 11 år. Har
-        alltid syntes IT er spennende og vil jobbe innenfor det feltet. Som
-        tidligere leder er jeg flink til å hjelpe andre samt skaffe gode
-        relasjoner • g få folk til å trives på jobben. Jeg ser på meg selv som
-        en genuin og sosial person med godt humør, er ansvarsbevisst, lærevillig
-        og liker å jobbe både selvstendig og i team For tiden studerer jeg
-        Frontend-utvikling på Gokstad akademiet i Sandefjord. Vi har vært
-        igjennom grunnleggende CSS, HTML og Javascript der jeg fikk A på begge
-        eksamener. Vi har også hatt design/brukergrensesnitt og UX/UI der vi har
-        laget prototyper i adobe XD. Jeg fikk også A på eksamen i Design. I
-        sommer har jeg laget ett prosjekt i React, sammen med en klassekamerat,
-        for ett bilutleie firma i Oslo. Jeg jobber også deltid som mentor og
-        lærer assistent på Gokstad Akademiet.
+        Jeg er en 39 år gammel person bosatt i Tjølling sammen med min mann og
+        to barn på henholdsvis 9 og 11 år. Jeg har alltid vært fascinert av
+        IT-bransjen og har ambisjoner om å jobbe innen dette feltet. Som
+        tidligere leder har jeg evner til å hjelpe andre og bygge positive
+        relasjoner, samt å bidra til en god arbeidsmiljø. Jeg beskriver meg selv
+        som genuin, sosial, ansvarsbevisst, lærevillig og like godt tilpasset
+        både selvstendig og teamarbeid. For øyeblikket studerer jeg
+        Frontend-utvikling på Gokstad Akademiet i Sandefjord, hvor jeg har
+        gjennomgått grunnleggende kurs i CSS, HTML og Javascript, med
+        toppkarakterer på begge eksamener. Jeg har også fått opplæring i design
+        og brukergrensesnitt, og har oppnådd høye karakterer på eksamen i dette
+        faget. I løpet av sommeren har jeg samarbeidet med en klassekamerat om å
+        utvikle et prosjekt for et bilutleiefirma i Oslo, ved hjelp av React.
+        Jeg jobber også deltid som mentor og lærerassistent ved akademiet.
       </p>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 const PrimaryButton = (props) => {
   console.log(props);
 
-  const { disableBtn, text, onclick } = props;
+  // const { disableBtn, text, onclick } = props;
 
   return (
     <div>
