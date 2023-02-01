@@ -2,8 +2,8 @@ const LanguageData = [
   {
     langOne: "Norwegian",
     langTwo: "English",
-    langTree: "Sweedish",
-    langFour: "Danish",
+    // langTree: "Sweedish",
+    // langFour: "Danish",
   },
 ];
 
